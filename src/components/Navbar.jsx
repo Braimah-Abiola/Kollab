@@ -30,23 +30,23 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+      } w-full flex items-center py-2 fixed top-0 z-20 ${
+        scrolled ? "bg-blur" : "bg-transparent"
       }`}
     >
       <div className="w-full flex items-center max-w-[1600px] mx-auto">
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="object-contain" />
+          <img src={logo} alt="logo" className="z-[1] w-[100%] h-[100%] object-contain" />
         </Link>
 
-        <ul className="list-none hidden ml-20 sm:flex flex-row gap-10">
+        <ul id="nav" className="list-none hidden ml-20 sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -60,7 +60,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="flex-row gap-3 hidden sm:flex ml-auto">
+        <div className="hidden md:flex flex-row gap-3 ml-auto">
           <Download
             textLine1="Get from Chrome"
             textLine2="Extension Store"
