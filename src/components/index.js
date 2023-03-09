@@ -9,6 +9,9 @@ import Footer from "./Footer";
 import Chrome from "./Chrome";
 import Edge from "./Edge";
 import Safari from "./Safari";
+import Video from "./Video";
+import PrimaryButton from "./PrimaryButton";
+import SecondaryButton from "./SecondaryButton";
 
 
 export {
@@ -22,5 +25,8 @@ export {
     Footer,
     Chrome,
     Edge,
-    Safari
+    Safari,
+    Video,
+    PrimaryButton,
+    SecondaryButton,
 }

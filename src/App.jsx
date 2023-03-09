@@ -16,9 +16,11 @@ const App = () => {
       <div className="bg-primary">
         <div className="bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Hero />
         </div>
+        <Hero />
+        <hr className="line" />
         <Companies />
+        <hr className="line" />
         <Features />
         <Learn />
         <Reviews />

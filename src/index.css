@@ -51,3 +51,104 @@
   background-color: #363636;
   border-color: #FFFFFF;
 }
+
+.primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 32px;
+  border-radius: 8px;
+  background-color: #7C3AED;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: #6D33D1;
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #7C3AED;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+  background-color: transparent;
+  color: #6D33D1;
+}
+
+
+.hero {
+  padding-left: 150px;
+  height: 100vh;
+}
+
+.companies{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.line{
+  margin-left: 150px;
+  margin-right: 150px;
+  border: none;
+  height: 2px;
+  background-color: #E5E7EB;
+}
+
+.features{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.learn{
+  padding: 150px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#footer .logo {
+  cursor: pointer;
+}
+
+#footer .text-group {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer .text-group2 {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer .copyright {
+  margin-top: 80px;
+}
+
+#footer .right {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+#footer .right button {
+  margin-bottom: 1rem; /* adjust the margin as needed */
+}

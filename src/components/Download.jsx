@@ -5,7 +5,7 @@ function Download({ textLine1, textLine2, icon }) {
     <button className="download-button" style={{ display: "flex", alignItems: "center" }}>
       <span
         style={{
-          marginRight: "15px",
+          marginRight: "12px",
           display: "flex",
           alignItems: "flex-start",
         }}
@@ -13,7 +13,7 @@ function Download({ textLine1, textLine2, icon }) {
         {icon}
       </span>
       <span
-        className="font-semibold"
+        className="font-regular text-[11px]"
         style={{
           display: "flex",
           flexDirection: "column",
@@ -21,7 +21,7 @@ function Download({ textLine1, textLine2, icon }) {
         }}
       >
         <span>{textLine1}</span>
-        <span style={{fontWeight: "bold", fontSize: "18px" }}>
+        <span style={{fontWeight: "bold", fontSize: "15px" }}>
           {textLine2}
         </span>
       </span>

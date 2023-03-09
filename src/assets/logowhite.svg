@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151" height="43" viewBox="0 0 151 43">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_87" data-name="Rectangle 87" width="43" height="43" transform="translate(-0.333 -0.333)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2100" data-name="Group 2100" transform="translate(-200 -5398)">
+    <g id="Group_109" data-name="Group 109" transform="translate(200.333 5398.333)" clip-path="url(#clip-path)">
+      <path id="Path_279" data-name="Path 279" d="M112.658,4074.107h14.465a12.421,12.421,0,0,0,12.42-12.427H125.078A12.429,12.429,0,0,0,112.658,4074.107Z" transform="translate(-111.781 -4031.44)" fill="#f22bb2"/>
+      <path id="Path_280" data-name="Path 280" d="M113.143,4051.427v18.253a12.419,12.419,0,0,0,12.42-12.414V4039A12.421,12.421,0,0,0,113.143,4051.427Z" transform="translate(-111.619 -4039)" fill="#8c30f5"/>
+      <path id="Path_281" data-name="Path 281" d="M150.063,4039H135.6a12.422,12.422,0,0,0-12.42,12.427h14.465A12.429,12.429,0,0,0,150.063,4039Z" transform="translate(-108.274 -4039)" fill="#fe9a22"/>
+      <path id="Path_282" data-name="Path 282" d="M146.447,4065.707V4047.44a12.419,12.419,0,0,0-12.42,12.413v18.267A12.417,12.417,0,0,0,146.447,4065.707Z" transform="translate(-104.658 -4036.187)" fill="#2ec5ce"/>
+    </g>
+    <text id="Kollab_" data-name="Kollab®" transform="translate(258 5429)" fill="#fff" font-size="25" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Kollab</tspan><tspan y="0" font-size="14.582" baseline-shift="8.332499716634633">®</tspan></text>
+  </g>
+</svg>
